@@ -180,3 +180,5 @@ bar {
         status_command i3status
 }
 
+focus_on_window_activation focus
+

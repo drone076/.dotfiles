@@ -81,6 +81,16 @@ plugins=(git zsh-syntax-highlighting zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
+
+addToPathFront() {
+    if [[ "$PATH" != *"$1"* ]]; then
+        export PATH=$1:$PATH
+    fi
+}
+
+source ~/.zsh_profile
+
+
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
