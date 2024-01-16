@@ -11,4 +11,5 @@ require("core.plugin_config.copilot")
 require("core.plugin_config.oil")
 require("core.plugin_config.markdown_preview")
 require("core.plugin_config.swagger-preview")
-require("core.plugin_config.nvimtree_config")
+require("core.plugin_config.harpoon")
+

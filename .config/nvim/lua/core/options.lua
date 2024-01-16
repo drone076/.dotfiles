@@ -7,7 +7,7 @@ vim.opt.laststatus = 2
 vim.opt.autowrite = true
 vim.opt.cursorline = true
 vim.opt.autoread = true
-
+vim.opt.colorcolumn = "80"
 vim.opt.relativenumber = true
 
 -- use spaces for tabs and whatnot
