@@ -1,0 +1,4 @@
+addToPathFront $HOME/.local/scripts
+
+# Where should I put you?
+bindkey -s ^f "tmux-sessionizer\n"
