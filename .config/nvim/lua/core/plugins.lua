@@ -43,4 +43,5 @@ require("lazy").setup({
     dependencies = { "nvim-lua/plenary.nvim" }
   },
   { "gbprod/php-enhanced-treesitter.nvim" },
+  { "shortcuts/no-neck-pain.nvim" },
 })
