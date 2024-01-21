@@ -1,4 +1,5 @@
 setxkbmap -layout us,ru
+# setxkbmap -layout "us,ru" -variant "colemak_dh,"
 setxkbmap -option 'grp:caps_toggle,grp_led:caps'
 
 imwheel -b "4 5"
