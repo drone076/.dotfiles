@@ -1,5 +1,5 @@
 require("mason-lspconfig").setup({
-  ensure_installed = { "lua_ls", "solargraph", "tsserver", "intelephense" }
+  ensure_installed = { "lua_ls", "solargraph", "tsserver", "intelephense", "rubocop" }
 })
 
 local lspconfig = require('lspconfig')
@@ -28,6 +28,7 @@ require("lspconfig").lua_ls.setup {
   }
 }
 
+require("lspconfig").rubocop.setup({})
 require("lspconfig").solargraph.setup({})
 require("lspconfig").tsserver.setup({})
 require("lspconfig").gopls.setup({})
