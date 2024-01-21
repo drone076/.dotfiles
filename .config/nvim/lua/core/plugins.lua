@@ -44,4 +44,5 @@ require("lazy").setup({
   },
   { "gbprod/php-enhanced-treesitter.nvim" },
   { "shortcuts/no-neck-pain.nvim" },
+  { "lukas-reineke/indent-blankline.nvim", main = "ibl", opts = {} },
 })
