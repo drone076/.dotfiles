@@ -7,6 +7,7 @@ require("lazy").setup({
   "dracula/vim",
   "nvim-lualine/lualine.nvim",
   "nvim-treesitter/nvim-treesitter",
+  "nvim-treesitter/nvim-treesitter-textobjects",
   "vim-test/vim-test",
   "lewis6991/gitsigns.nvim",
   "preservim/vimux",

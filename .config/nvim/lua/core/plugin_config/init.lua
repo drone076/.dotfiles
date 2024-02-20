@@ -1,6 +1,7 @@
 require("core.plugin_config.colorscheme")
 require("core.plugin_config.lualine")
 require("core.plugin_config.treesitter")
+require("core.plugin_config.treesitter-textobjects")
 require("core.plugin_config.telescope")
 require("core.plugin_config.vim-test")
 require("core.plugin_config.completions")
