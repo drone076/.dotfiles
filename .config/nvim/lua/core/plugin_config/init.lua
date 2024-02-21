@@ -14,4 +14,4 @@ require("core.plugin_config.swagger-preview")
 require("core.plugin_config.harpoon")
 require("core.plugin_config.noneckpain")
 require("core.plugin_config.indent_blankline")
-
+require("core.plugin_config.undotree")
