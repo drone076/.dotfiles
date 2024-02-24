@@ -1,4 +1,11 @@
-require('telescope').setup({ file_ignore_patterns = { "node%_modules/.*" } })
+require('telescope').setup({
+  file_ignore_patterns = { "node%_modules/.*" },
+  pickers = {
+    find_files = {
+      find_command = { "rg", "--files", "--hidden", "-g", "!.git" }
+    },
+  }
+})
 local builtin = require('telescope.builtin')
 
 vim.keymap.set('n', '<Space><Space>', builtin.oldfiles, {})
