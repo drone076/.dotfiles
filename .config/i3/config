@@ -196,4 +196,5 @@ bindsym Shift+Print exec --no-startup-id maim --format=png --select "/home/$USER
 #bindsym Ctrl+$mod+Print exec --no-startup-id maim --format=png --window $(xdotool getactivewindow) | xclip -selection clipboard -t image/png
 #bindsym Ctrl+Shift+Print exec --no-startup-id maim --format=png --select | xclip -selection clipboard -t image/png
 
+default_border pixel 0
 

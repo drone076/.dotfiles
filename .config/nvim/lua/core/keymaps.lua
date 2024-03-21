@@ -1,3 +1,9 @@
+-- Disable arrow keys
+vim.keymap.set('n', '<Up>', '<Nop>')
+vim.keymap.set('n', '<Down>', '<Nop>')
+vim.keymap.set('n', '<Left>', '<Nop>')
+vim.keymap.set('n', '<Right>', '<Nop>')
+
 -- Navigate vim panes better
 vim.keymap.set('n', '<c-k>', ':wincmd k<CR>')
 vim.keymap.set('n', '<c-j>', ':wincmd j<CR>')
@@ -15,6 +21,7 @@ vim.keymap.set("x", "<leader>p", [["_dP]])
 
 -- next greatest remap ever : asbjornHaland
 vim.keymap.set("n", "N", "Nzzzv")
+vim.keymap.set("n", "n", "nzzzv")
 vim.keymap.set({ "n", "v" }, "<leader>d", [["_d]])
 
 -- This is going to get me cancelled

@@ -2,7 +2,6 @@ require("lazy").setup({
   { "catppuccin/nvim",                 name = "catppuccin", priority = 1000 },
   "tpope/vim-commentary",
   "mattn/emmet-vim",
-  -- "nvim-tree/nvim-web-devicons",
   "ellisonleao/gruvbox.nvim",
   "dracula/vim",
   "nvim-lualine/lualine.nvim",
@@ -29,18 +28,19 @@ require("lazy").setup({
   "williamboman/mason-lspconfig.nvim",
   "neovim/nvim-lspconfig",
   {
+    "folke/trouble.nvim",
+    dependencies = { "nvim-tree/nvim-web-devicons" },
+    opts = {
+      -- your configuration comes here
+      -- or leave it empty to use the default settings
+      -- refer to the configuration section below
+    },
+  },
+  {
     "ThePrimeagen/harpoon",
     branch = "harpoon2",
     dependencies = { "nvim-lua/plenary.nvim" }
   },
-  -- {
-  --   "vinnymeller/swagger-preview.nvim",
-  --   run = "npm install -g swagger-ui-watcher",
-  -- },
-  -- {
-  --   "iamcco/markdown-preview.nvim",
-  --   run = "cd app && npm install",
-  -- },
   { "nvim-treesitter/nvim-treesitter-context" },
   {
     "nvim-telescope/telescope.nvim",
@@ -49,7 +49,6 @@ require("lazy").setup({
   },
   { "gbprod/php-enhanced-treesitter.nvim" },
   { "shortcuts/no-neck-pain.nvim" },
-  -- { "folke/zen-mode.nvim" },
   { "lukas-reineke/indent-blankline.nvim", main = "ibl", opts = {} },
   { "mbbill/undotree" }
 })
